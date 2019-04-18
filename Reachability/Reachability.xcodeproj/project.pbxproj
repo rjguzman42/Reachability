@@ -64,16 +64,6 @@
 		5EFDB3702268F97700660412 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				5EFDB3792268F9D300660412 /* Reachability */,
-				5EFDB3712268F97700660412 /* Reachability.h */,
-				5EFDB3722268F97700660412 /* Info.plist */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		5EFDB3792268F9D300660412 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
 				5EFDB3802268F9FB00660412 /* Network.swift */,
 				5EFDB37A2268F9FA00660412 /* Notifications+Reachability.swift */,
 				5EFDB37D2268F9FA00660412 /* Reachability.swift */,
@@ -83,8 +73,18 @@
 				5EFDB3822268F9FB00660412 /* Reachable.swift */,
 				5EFDB3812268F9FB00660412 /* Theme.swift */,
 				5EFDB37F2268F9FA00660412 /* UIView+Reachability.swift */,
+				5EFDB38C2268FA9800660412 /* Resources */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5EFDB38C2268FA9800660412 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDB3712268F97700660412 /* Reachability.h */,
+				5EFDB3722268F97700660412 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
