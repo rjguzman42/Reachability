@@ -3,6 +3,17 @@ This is built on top of Apple's Reachability class. It handles all changes in ne
 
 # Implementation
 
+Add the project to your podfile
+```
+target 'TestApp' do
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+pod 'Reachability305', :git => 'https://github.com/rjguzman42/Reachability305.git'
+
+end
+```
+
 Import the Reachability305 framework
 ```
 import Reachability305
