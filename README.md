@@ -1,4 +1,4 @@
-# Reachability
+# Reachability305
 This is built on top of Apple's Reachability class. It handles all changes in network connectivity and displays a message to the user accordingly. The Reachability feature also supports custom views so you can display to the user any information you like. 
 
 # Implementation
@@ -6,9 +6,9 @@ This is built on top of Apple's Reachability class. It handles all changes in ne
 ## Notification Example
 The Reachability feature calls the "flagsChanged" notification when there is a change from either 'No Internet', 'WWAN', 'WIFI'. Complete the following steps to receive a callback when there is a change in connectivity.
 
-Import the Reachability framework
+Import the Reachability305 framework
 ```
-import Reachability
+import Reachability305
 ```
 
 Conform to the Reachable protocol to get notified when there is a change in the device connectivity. To comply with the protocol, you must add the connectionDidChange function.

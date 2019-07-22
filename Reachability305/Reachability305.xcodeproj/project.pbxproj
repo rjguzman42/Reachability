@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		5EFDB3732268F97700660412 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFDB3712268F97700660412 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EFDB3832268F9FB00660412 /* Notifications+Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37A2268F9FA00660412 /* Notifications+Reachability.swift */; };
+		5EFDB3832268F9FB00660412 /* Notifications+Reachability305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37A2268F9FA00660412 /* Notifications+Reachability305.swift */; };
 		5EFDB3842268F9FB00660412 /* ReachabilityDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37B2268F9FA00660412 /* ReachabilityDefaultView.swift */; };
 		5EFDB3852268F9FB00660412 /* ReachabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37C2268F9FA00660412 /* ReachabilityView.swift */; };
 		5EFDB3862268F9FB00660412 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37D2268F9FA00660412 /* Reachability.swift */; };
 		5EFDB3872268F9FB00660412 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37E2268F9FA00660412 /* ReachabilityManager.swift */; };
-		5EFDB3882268F9FB00660412 /* UIView+Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37F2268F9FA00660412 /* UIView+Reachability.swift */; };
+		5EFDB3882268F9FB00660412 /* UIView+Reachability305.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB37F2268F9FA00660412 /* UIView+Reachability305.swift */; };
 		5EFDB3892268F9FB00660412 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB3802268F9FB00660412 /* Network.swift */; };
 		5EFDB38A2268F9FB00660412 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB3812268F9FB00660412 /* Theme.swift */; };
 		5EFDB38B2268F9FB00660412 /* Reachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFDB3822268F9FB00660412 /* Reachable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EFDB36E2268F97700660412 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFDB36E2268F97700660412 /* Reachability305.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability305.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFDB3712268F97700660412 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		5EFDB3722268F97700660412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EFDB37A2268F9FA00660412 /* Notifications+Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notifications+Reachability.swift"; sourceTree = "<group>"; };
+		5EFDB37A2268F9FA00660412 /* Notifications+Reachability305.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notifications+Reachability305.swift"; sourceTree = "<group>"; };
 		5EFDB37B2268F9FA00660412 /* ReachabilityDefaultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityDefaultView.swift; sourceTree = "<group>"; };
 		5EFDB37C2268F9FA00660412 /* ReachabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityView.swift; sourceTree = "<group>"; };
 		5EFDB37D2268F9FA00660412 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		5EFDB37E2268F9FA00660412 /* ReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
-		5EFDB37F2268F9FA00660412 /* UIView+Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Reachability.swift"; sourceTree = "<group>"; };
+		5EFDB37F2268F9FA00660412 /* UIView+Reachability305.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Reachability305.swift"; sourceTree = "<group>"; };
 		5EFDB3802268F9FB00660412 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		5EFDB3812268F9FB00660412 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5EFDB3822268F9FB00660412 /* Reachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachable.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		5EFDB3642268F97700660412 = {
 			isa = PBXGroup;
 			children = (
-				5EFDB3702268F97700660412 /* Reachability */,
+				5EFDB3702268F97700660412 /* Reachability305 */,
 				5EFDB36F2268F97700660412 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,26 +56,26 @@
 		5EFDB36F2268F97700660412 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EFDB36E2268F97700660412 /* Reachability.framework */,
+				5EFDB36E2268F97700660412 /* Reachability305.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EFDB3702268F97700660412 /* Reachability */ = {
+		5EFDB3702268F97700660412 /* Reachability305 */ = {
 			isa = PBXGroup;
 			children = (
 				5EFDB3802268F9FB00660412 /* Network.swift */,
-				5EFDB37A2268F9FA00660412 /* Notifications+Reachability.swift */,
+				5EFDB37A2268F9FA00660412 /* Notifications+Reachability305.swift */,
 				5EFDB37D2268F9FA00660412 /* Reachability.swift */,
 				5EFDB37B2268F9FA00660412 /* ReachabilityDefaultView.swift */,
 				5EFDB37E2268F9FA00660412 /* ReachabilityManager.swift */,
 				5EFDB37C2268F9FA00660412 /* ReachabilityView.swift */,
 				5EFDB3822268F9FB00660412 /* Reachable.swift */,
 				5EFDB3812268F9FB00660412 /* Theme.swift */,
-				5EFDB37F2268F9FA00660412 /* UIView+Reachability.swift */,
+				5EFDB37F2268F9FA00660412 /* UIView+Reachability305.swift */,
 				5EFDB38C2268FA9800660412 /* Resources */,
 			);
-			path = Reachability;
+			path = Reachability305;
 			sourceTree = "<group>";
 		};
 		5EFDB38C2268FA9800660412 /* Resources */ = {
@@ -101,9 +101,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5EFDB36D2268F97700660412 /* Reachability */ = {
+		5EFDB36D2268F97700660412 /* Reachability305 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFDB3762268F97700660412 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildConfigurationList = 5EFDB3762268F97700660412 /* Build configuration list for PBXNativeTarget "Reachability305" */;
 			buildPhases = (
 				5EFDB3692268F97700660412 /* Headers */,
 				5EFDB36A2268F97700660412 /* Sources */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = Reachability;
+			name = Reachability305;
 			productName = Reachability;
-			productReference = 5EFDB36E2268F97700660412 /* Reachability.framework */;
+			productReference = 5EFDB36E2268F97700660412 /* Reachability305.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EFDB3682268F97700660412 /* Build configuration list for PBXProject "Reachability" */;
+			buildConfigurationList = 5EFDB3682268F97700660412 /* Build configuration list for PBXProject "Reachability305" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EFDB36D2268F97700660412 /* Reachability */,
+				5EFDB36D2268F97700660412 /* Reachability305 */,
 			);
 		};
 /* End PBXProject section */
@@ -169,12 +169,12 @@
 				5EFDB38B2268F9FB00660412 /* Reachable.swift in Sources */,
 				5EFDB3852268F9FB00660412 /* ReachabilityView.swift in Sources */,
 				5EFDB38A2268F9FB00660412 /* Theme.swift in Sources */,
-				5EFDB3832268F9FB00660412 /* Notifications+Reachability.swift in Sources */,
+				5EFDB3832268F9FB00660412 /* Notifications+Reachability305.swift in Sources */,
 				5EFDB3862268F9FB00660412 /* Reachability.swift in Sources */,
 				5EFDB3842268F9FB00660412 /* ReachabilityDefaultView.swift in Sources */,
 				5EFDB3872268F9FB00660412 /* ReachabilityManager.swift in Sources */,
 				5EFDB3892268F9FB00660412 /* Network.swift in Sources */,
-				5EFDB3882268F9FB00660412 /* UIView+Reachability.swift in Sources */,
+				5EFDB3882268F9FB00660412 /* UIView+Reachability305.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EFDB3682268F97700660412 /* Build configuration list for PBXProject "Reachability" */ = {
+		5EFDB3682268F97700660412 /* Build configuration list for PBXProject "Reachability305" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFDB3742268F97700660412 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFDB3762268F97700660412 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+		5EFDB3762268F97700660412 /* Build configuration list for PBXNativeTarget "Reachability305" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EFDB3772268F97700660412 /* Debug */,
