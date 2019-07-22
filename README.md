@@ -3,13 +3,13 @@ This is built on top of Apple's Reachability class. It handles all changes in ne
 
 # Implementation
 
-## Notification Example
-The Reachability feature calls the "flagsChanged" notification when there is a change from either 'No Internet', 'WWAN', 'WIFI'. Complete the following steps to receive a callback when there is a change in connectivity.
-
 Import the Reachability305 framework
 ```
 import Reachability305
 ```
+
+## Notification Example
+The Reachability feature calls the "flagsChanged" notification when there is a change from either 'No Internet', 'WWAN', 'WIFI'. Complete the following steps to receive a callback when there is a change in connectivity.
 
 Conform to the Reachable protocol to get notified when there is a change in the device connectivity. To comply with the protocol, you must add the connectionDidChange function.
 ```
@@ -72,5 +72,28 @@ extension ReachabilityDefaultView: ReachabilityView {
             self.delegate?.reachabilityViewDidHide()
         })
     }
+}
+```
+
+To setup the ReachabilityManager with your custom view, create an instance of the ReachabilityManager in your appDelegate.
+
+```
+let reachabilityManager = ReachabilityManager.shared
+```
+
+Inside the didFinishLaunchingWithOptions function, create an instance of your custom view and attach it to the reachabilityManager. Your app will now run the detect any changes in connectivity and display your custom view upon action.
+
+```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+    //Reachability
+    let customReachabilityView: CustomReachabilityView = {
+        let height: CGFloat = UIScreen.main.bounds.size.height / 14
+        let view = CustomReachabilityView(frame: CGRect(x: 0, y: UIScreen.main.bounds.maxY, width: UIScreen.main.bounds.size.width, height: height))
+        return view
+    }()
+    reachabilityManager.setupWith(view: customReachabilityView)
+
+    return true
 }
 ```
