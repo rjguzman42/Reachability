@@ -42,7 +42,7 @@ extension ReachabilityDefaultView: ReachabilityView {
 }
 ```
 
-Create a ReachabilityViewDelegate property inside your ReachabilityView to community with the ReachabilityManager. The ReachabilityManager conforms to the ReachabilityViewDelegate in order to listen to your ReachabilityView.
+Create a ReachabilityViewDelegate property inside your ReachabilityView to communicate with the ReachabilityManager. The ReachabilityManager conforms to the ReachabilityViewDelegate in order to listen to your ReachabilityView.
 ```
 var delegate: ReachabilityViewDelegate?
 ```
